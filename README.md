@@ -14,14 +14,14 @@ Here are the steps to run this Spot Management System:
     bundle install
 
 - Create the database
-    Make shure ypu have postgresql 
+    Make shure ypu have postgresql
     Create a database for your application by running the following command:
     rails db:create
 
 - Migrate the database
     Run the following command to migrate the database:
     rails db:migrate
-    
+
 - Start the Rails server
     Start the Rails server by running the following command:
     rails server
@@ -57,5 +57,3 @@ Columns:
     star (integer, not null)
     created_at (datetime, not null)
     updated_at (datetime, not null)
-
-
